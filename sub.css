@@ -16,8 +16,7 @@ section, summary, time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-    float: inherit;
-    color: inherit;
+    
 	font: inherit;
 	vertical-align: baseline;}
 
@@ -29,7 +28,7 @@ body {
 	
     background-color: white;   /* d2bbac   dbbcaf*/
     color: #d0b8ab;
-    text-align: center;
+    /*text-align: center;*/
     font-family: 'gilroy','Mgothic','Nanum Gothic', sans-serif;
 }
 
@@ -1536,16 +1535,18 @@ ul.actions li h2{
 /* Footer */
 
             #footer {
-                position:absolute;
-             z-index: 10;   
+                
 		padding: 5em 0 6em 0 ;
 		background-color: white;/*#f6f6f6;*/
 	}
+
 #footer a{
     color: white;
 }
 
             #footer > .inner {
+                position:absolute;
+             z-index: 10;   
 			display: -moz-flex;
 			display: -webkit-flex;
 			display: -ms-flex;
