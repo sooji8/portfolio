@@ -16,7 +16,7 @@ section, summary, time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-    line-height: 170%;
+    
 	font: inherit;
 	vertical-align: baseline;}
 
@@ -122,7 +122,7 @@ input, select, textarea {
     padding: 0 0 1.27em 0; 
     text-align: left;
     border: 0px blue dashed;
-    color: white;
+    color: #d0b8ab;
     font-family:'gilroy','Mgothic',sans-serif ;
 }
 #header22{
@@ -133,6 +133,34 @@ input, select, textarea {
     
     
 }
+
+/*add*/
+        #nav ul lo{
+            border: 1px blue dashed;
+                
+        }    
+
+#main > .inner {
+    width: 80%;
+    border: 0px blue dashed;
+}
+
+#main > .inner p {
+    
+    border: 0px blue dashed;
+    width: 25%;
+    text-align: left;
+    line-height: 170%;
+    float: left;
+    margin: 20% 10px 0 20px;
+}
+
+
+
+
+
+
+
 
 
 /* Basic */
@@ -713,9 +741,9 @@ margin-left: -4em;
     ul.actions li {
 			padding: 0 1em 0 1em;
 			vertical-align: middle;
-        border: 3px solid #f2849e;
+        border: 3px solid #d0b8ab;
         border-radius: 10px;
-        color: #f2849e;
+        color: #d0b8ab;
 		}
 ul.actions li h2{
     margin: 1em 0 0.8em 0.2em;
@@ -1010,7 +1038,8 @@ ul.actions li h2{
 
 
     .main img {
-				width: 80%;
+				width: 100%;
+        
 			}
 
 			
@@ -1506,6 +1535,8 @@ ul.actions li h2{
 /* Footer */
 
             #footer {
+                position:absolute;
+             z-index: 10;   
 		padding: 5em 0 6em 0 ;
 		background-color: white;/*#f6f6f6;*/
 	}
@@ -1575,20 +1606,16 @@ ul.actions li h2{
                 
             }
 
+            /* Wrapper */
 
-		
-/* Wrapper */
-
-	#wrapper > * > .inner {
-		width: 100%;
-		max-width: 68em;
-		margin: 0 auto;
-        /* margin : 0 auto;*/
-		padding: 0 2.5em;
+	       #wrapper > * > .inner {
+	        	width: 100%;
+	        	max-width: 68em;
+	        	margin: 0 auto;
+                /* margin : 0 auto;*/
+	        	padding: 0 2.5em;
         
-        
-        
-	}
+	        }
 
 
 
@@ -1930,17 +1957,17 @@ ul.actions li h2{
 
             #nav{
                 position: fixed;
-                width: 80%;
+                width: 85%;
                 margin: 0;
                 overflow: hidden;
                 background: rgba(255,255,255,0);
-                font-size: 550%;
+                font-size: 520%;
                 border: 0px red dashed;
 
             }
             #nav ul{
-                width: 100%;
-                margin:  3px 0 0 15px;
+                width: 90%;
+                margin:  3px 0 30px 15px;
                 list-style: none;
                 float: left;
                 padding: 0;  
@@ -1951,9 +1978,9 @@ ul.actions li h2{
                 height: auto;
                 padding:  4% 0; 
                 text-align: left;
-                line-height: 105%;
+                line-height: 120%;
                 border: 0px blue dashed;
-                color: white;
+                color: #d0b8ab;
                 font-family:'gilroy','Mgothic',sans-serif ;
             }
 
@@ -1962,12 +1989,37 @@ ul.actions li h2{
                 background: url(images/header0-2.jpg) no-repeat;
                 background-position: center 100%;
                 background-size: cover;
-                color: #ffdc4f;
+                color: #d0b8ab;
                 margin: -3em 0 0 0;
 
             }
             
-            
+          
+        /*add*/
+        #nav ul lo{
+            border: 1px blue dashed;
+                
+        }    
+
+        #main > .inner {
+            width: 100%;
+            border: 0px blue dashed;
+        }
+
+        #main > .inner p {
+    
+            border: 0px blue dashed;
+            width: 95%;
+            text-align: left;
+            line-height: 170%;
+            float: left;
+            margin: 10% 0 0 10px;
+        }
+    
+        #main > .inner img{
+             width: 98%;
+            margin: 10% 0 0 0;
+        } 
            
         
             
@@ -1994,7 +2046,7 @@ ul.actions li h2{
 				-ms-transform: translateX(16.5em);
 				transform: translateX(16.5em);
 				width: 16.5em;
-			}
+			    }
 
 				#menu > .inner {
 					padding: 2.75em 1.5em;
@@ -2016,9 +2068,9 @@ ul.actions li h2{
                     padding: 0em 0 4em 0 ;
                 }
             
-            #main img {
+                #main img {
                 width: 80%;
-            }
+                }
 
                 
                 /*row*/
@@ -2336,11 +2388,11 @@ ul.actions li h2{
             
         #nav{
             position: fixed;
-            width: 90%;
+            width: 68%;
             margin: 0;
             overflow: hidden;
             background: rgba(255,255,255,0);
-            font-size: 72px;
+            font-size: 55px;
             border: 0px red dashed;
 
         }
@@ -2357,14 +2409,14 @@ ul.actions li h2{
             height: auto;
             padding:  4% 0; 
             text-align: left;
-            line-height: 92%;
+            line-height: 120%;
             border: 0px blue dashed;
-            color: white;
+            color: #d0b8ab;
             font-family:'gilroy','Mgothic',sans-serif ;
         }
         
         #nav ul lo{
-            border: 1px blue dashed;
+            border: 0px blue dashed;
                 
         }    
 
@@ -2376,6 +2428,33 @@ ul.actions li h2{
             color: #ffdc4f;
 
         }
+            
+        
+        /*add*/
+           
+
+        #main > .inner {
+            width: 100%;
+            border: 0px blue dashed;
+        }
+
+        #main > .inner p {
+    
+            border: 0px blue dashed;
+            width: 95%;
+            text-align: left;
+            line-height: 170%;
+            float: left;
+            margin: 15% 0 15% 10px;
+        }
+    
+        #main > .inner img{
+             width: 98%;
+        }            
+            
+            
+            
+            
             
             
             
@@ -2473,7 +2552,7 @@ ul.actions li h2{
                 /* Wrapper */
                 #wrapper > * > .inner {
                 
-				padding: 0 1.25em;
+				 padding: 0 1.25em;
                 
 			}
 
@@ -2746,47 +2825,71 @@ ul.actions li h2{
                 
             }    
             
-        /* 모바일 nav, header*/
-            
-        #nav{
+         #nav{
             position: fixed;
-            width: 97;
+            width: 68%;
             margin: 0;
             overflow: hidden;
             background: rgba(255,255,255,0);
-            font-size: 60px; /*380%*/
+            font-size: 55px;
             border: 0px red dashed;
 
         }
         #nav ul{
             width: 90%;
-            margin:  3px 0 0 10px;
+            margin:  3px 0 0 11px;
             list-style: none;
             float: left;
             padding: 0;  
-            border: 0px blue dashed;
         }
 
         #nav ul li{
-            width : 97%;
+            width : 90%;
+            height: auto;
             padding:  4% 0; 
             text-align: left;
-            line-height: 90%;
+            line-height: 120%;
             border: 0px blue dashed;
-            color: white;
+            color: #d0b8ab;
             font-family:'gilroy','Mgothic',sans-serif ;
         }
         
-           
+        #nav ul lo{
+            border: 0px blue dashed;
+                
+        }    
 
         #header22{
             height: 700px;
-            background: url(images/header0-2-2.jpg) no-repeat;
+            background: url(images/header0-2.jpg) no-repeat;
             background-position: center 100%;
             background-size: cover;
             color: #ffdc4f;
 
         }
+            
+        
+        /*add*/
+           
+
+        #main > .inner {
+            width: 100%;
+            border: 0px blue dashed;
+        }
+
+        #main > .inner p {
+    
+            border: 0px blue dashed;
+            width: 95%;
+            text-align: left;
+            line-height: 170%;
+            float: left;
+            margin: 15% 0 15% 10px;
+        }
+    
+        #main > .inner img{
+             width: 98%;
+        } 
             
             
             
